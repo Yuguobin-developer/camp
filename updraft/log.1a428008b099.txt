@@ -1,0 +1,210 @@
+0000.001 () Opened log file at time: Mon, 16 Jan 2023 16:06:00 +0000 on https://camp.dsd-media.online
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.1 WP: 6.1.1 PHP: 7.4.33 (fpm-fcgi, Linux ded3581.inmotionhosting.com 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64) MySQL: 10.3.37-MariaDB (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 9.7M | 12M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.025 () Free space on disk containing Updraft's temporary directory: 818207.1 MB
+0000.037 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Mon, 16 Jan 2023 16:06:01 +0000 on https://camp.dsd-media.online
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.1 WP: 6.1.1 PHP: 7.4.33 (fpm-fcgi, Linux ded3581.inmotionhosting.com 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64) MySQL: 10.3.37-MariaDB (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 8.1M | 6M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.025 () Free space on disk containing Updraft's temporary directory: 818207.1 MB
+0000.035 () Ensuring WP_Filesystem is setup for a restore
+0000.035 () WP_Filesystem is setup and ready for a restore
+0000.037 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp4v_options","wp4v_users","wp4v_usermeta","wp4v_commentmeta","wp4v_comments","wp4v_links","wp4v_postmeta","wp4v_posts","wp4v_term_relationships","wp4v_term_taxonomy","wp4v_termmeta","wp4v_terms","wp4v_db7_forms","wp4v_redirection_404","wp4v_redirection_groups","wp4v_redirection_items","wp4v_redirection_logs","wp4v_responsive_menu","wp4v_yoast_indexable","wp4v_yoast_indexable_hierarchy","wp4v_yoast_migrations","wp4v_yoast_primary_term","wp4v_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.040 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.041 () Entity: db
+0000.041 () restore_backup(backup_file=backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-db.gz, type=db, info=a:0:{}, last_one=)
+0000.041 () Unpacking backup... (backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-db.gz, 0.3 Mb)
+0000.042 () Database successfully unpacked
+0000.042 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.042 () Using direct MySQL access; value of use_mysqli is: 1
+0000.042 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.057 () Max packet size: 256 MB
+0000.057 () Entering maintenance mode
+0000.057 () Enabling Maintenance mode&#8230;
+0000.063 () Backup created by: 2.22.14.1
+0000.063 () Backup of: https://dev.goauroratech.com
+0000.070 () Content URL: https://dev.goauroratech.com/wp-content
+0000.070 () Uploads URL: http://dev.goauroratech.com/wp-content/uploads
+0000.070 () Old table prefix: wp4v_
+0000.070 () Old ABSPATH: /home/goauro5/dev2020.goauroratech.com/
+0000.070 () Site information: multisite=0
+0000.070 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.071 () New table prefix: g0_
+0000.072 () Processing table (MyISAM): wp4v_options - will restore as: g0_options
+0000.096 () Atomic restore: dropping original table (L01QYH_options)
+0000.096 () Atomic restore: renaming new table (g0_options) to final table name (L01QYH_options)
+0000.097 () Restoring prior UD configuration (table: L01QYH_options; keys: 98)
+0000.151 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.151 () Options table fields changed OK
+0000.153 () Search and replacing table: L01QYH_options: rows: 360
+0000.214 () Processing table (MyISAM): wp4v_users - will restore as: g0_users
+0000.220 () Atomic restore: dropping original table (L01QYH_users)
+0000.220 () Atomic restore: renaming new table (g0_users) to final table name (L01QYH_users)
+0000.221 () Search and replacing table: L01QYH_users: rows: 2
+0000.221 () Processing table (MyISAM): wp4v_usermeta - will restore as: g0_usermeta
+0000.225 () Atomic restore: dropping original table (L01QYH_usermeta)
+0000.225 () Atomic restore: renaming new table (g0_usermeta) to final table name (L01QYH_usermeta)
+0000.225 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.226 () Usermeta table fields changed OK
+0000.226 () Search and replacing table: L01QYH_usermeta: rows: 58
+0000.227 () Incomplete object detected in database: Yoast\WP\SEO\Presenters\Admin\Indexing_Notification_Presenter; Search and replace will be skipped for these entries
+0000.227 () Processing table (MyISAM): wp4v_commentmeta - will restore as: g0_commentmeta
+0000.230 () Atomic restore: dropping original table (L01QYH_commentmeta)
+0000.231 () Atomic restore: renaming new table (g0_commentmeta) to final table name (L01QYH_commentmeta)
+0000.231 () Search and replacing table: L01QYH_commentmeta: rows: 0
+0000.231 () Processing table (MyISAM): wp4v_comments - will restore as: g0_comments
+0000.234 () Atomic restore: dropping original table (L01QYH_comments)
+0000.235 () Atomic restore: renaming new table (g0_comments) to final table name (L01QYH_comments)
+0000.235 () Search and replacing table: L01QYH_comments: rows: 0
+0000.235 () Processing table (MyISAM): wp4v_links - will restore as: g0_links
+0000.238 () Atomic restore: dropping original table (L01QYH_links)
+0000.239 () Atomic restore: renaming new table (g0_links) to final table name (L01QYH_links)
+0000.239 () Search and replacing table: L01QYH_links: rows: 0
+0000.239 () Processing table (MyISAM): wp4v_postmeta - will restore as: g0_postmeta
+0000.243 () Atomic restore: dropping original table (L01QYH_postmeta)
+0000.243 () Atomic restore: renaming new table (g0_postmeta) to final table name (L01QYH_postmeta)
+0000.244 () Search and replacing table: L01QYH_postmeta: rows: 1
+0000.245 () Processing table (MyISAM): wp4v_posts - will restore as: g0_posts
+0000.252 () Atomic restore: dropping original table (L01QYH_posts)
+0000.252 () Atomic restore: renaming new table (g0_posts) to final table name (L01QYH_posts)
+0000.253 () Skipping search/replace on GUID column in posts table
+0000.253 () Search and replacing table: L01QYH_posts: rows: 27
+0000.254 () Processing table (MyISAM): wp4v_term_relationships - will restore as: g0_term_relationships
+0000.257 () Atomic restore: dropping original table (L01QYH_term_relationships)
+0000.258 () Atomic restore: renaming new table (g0_term_relationships) to final table name (L01QYH_term_relationships)
+0000.258 () Skipping this table: data in this table (L01QYH_term_relationships) should not be search/replaced
+0000.258 () Processing table (MyISAM): wp4v_term_taxonomy - will restore as: g0_term_taxonomy
+0000.261 () Atomic restore: dropping original table (L01QYH_term_taxonomy)
+0000.261 () Atomic restore: renaming new table (g0_term_taxonomy) to final table name (L01QYH_term_taxonomy)
+0000.262 () Search and replacing table: L01QYH_term_taxonomy: rows: 2
+0000.262 () Processing table (MyISAM): wp4v_termmeta - will restore as: g0_termmeta
+0000.267 () Atomic restore: dropping original table (L01QYH_termmeta)
+0000.267 () Atomic restore: renaming new table (g0_termmeta) to final table name (L01QYH_termmeta)
+0000.268 () Search and replacing table: L01QYH_termmeta: rows: 0
+0000.268 () Processing table (MyISAM): wp4v_terms - will restore as: g0_terms
+0000.273 () Atomic restore: dropping original table (L01QYH_terms)
+0000.273 () Atomic restore: renaming new table (g0_terms) to final table name (L01QYH_terms)
+0000.274 () Search and replacing table: L01QYH_terms: rows: 2
+0000.274 () Processing table (MyISAM): wp4v_db7_forms - will restore as: g0_db7_forms
+0000.277 () Atomic restore: dropping original table (L01QYH_db7_forms)
+0000.277 () Atomic restore: renaming new table (g0_db7_forms) to final table name (L01QYH_db7_forms)
+0000.278 () Search and replacing table: L01QYH_db7_forms: rows: 0
+0000.278 () Processing table (MyISAM): wp4v_redirection_404 - will restore as: g0_redirection_404
+0000.287 () Atomic restore: dropping original table (L01QYH_redirection_404)
+0000.287 () Atomic restore: renaming new table (g0_redirection_404) to final table name (L01QYH_redirection_404)
+0000.288 () Skipping this table: data in this table (L01QYH_redirection_404) should not be search/replaced
+0000.288 () Processing table (MyISAM): wp4v_redirection_groups - will restore as: g0_redirection_groups
+0000.291 () Atomic restore: dropping original table (L01QYH_redirection_groups)
+0000.291 () Atomic restore: renaming new table (g0_redirection_groups) to final table name (L01QYH_redirection_groups)
+0000.292 () Search and replacing table: L01QYH_redirection_groups: rows: 1
+0000.292 () Processing table (MyISAM): wp4v_redirection_items - will restore as: g0_redirection_items
+0000.295 () Database queries processed: 50 in 0.25 seconds
+0000.295 () Atomic restore: dropping original table (L01QYH_redirection_items)
+0000.295 () Atomic restore: renaming new table (g0_redirection_items) to final table name (L01QYH_redirection_items)
+0000.296 () Search and replacing table: L01QYH_redirection_items: rows: 4
+0000.296 () Processing table (MyISAM): wp4v_redirection_logs - will restore as: g0_redirection_logs
+0000.299 () Atomic restore: dropping original table (L01QYH_redirection_logs)
+0000.299 () Atomic restore: renaming new table (g0_redirection_logs) to final table name (L01QYH_redirection_logs)
+0000.299 () Skipping this table: data in this table (L01QYH_redirection_logs) should not be search/replaced
+0000.299 () Processing table (MyISAM): wp4v_responsive_menu - will restore as: g0_responsive_menu
+0000.307 () Atomic restore: dropping original table (L01QYH_responsive_menu)
+0000.307 () Atomic restore: renaming new table (g0_responsive_menu) to final table name (L01QYH_responsive_menu)
+0000.308 () Search and replacing table: L01QYH_responsive_menu: rows: 286
+0000.311 () Processing table (MyISAM): wp4v_yoast_indexable - will restore as: g0_yoast_indexable
+0000.314 () Atomic restore: dropping original table (L01QYH_yoast_indexable)
+0000.314 () Atomic restore: renaming new table (g0_yoast_indexable) to final table name (L01QYH_yoast_indexable)
+0000.315 () Search and replacing table: L01QYH_yoast_indexable: rows: 14
+0000.317 () Processing table (MyISAM): wp4v_yoast_indexable_hierarchy - will restore as: g0_yoast_indexable_hierarchy
+0000.320 () Atomic restore: dropping original table (L01QYH_yoast_indexable_hierarchy)
+0000.320 () Atomic restore: renaming new table (g0_yoast_indexable_hierarchy) to final table name (L01QYH_yoast_indexable_hierarchy)
+0000.321 () Search and replacing table: L01QYH_yoast_indexable_hierarchy: rows: 11
+0000.321 () Processing table (MyISAM): wp4v_yoast_migrations - will restore as: g0_yoast_migrations
+0000.325 () Atomic restore: dropping original table (L01QYH_yoast_migrations)
+0000.325 () Atomic restore: renaming new table (g0_yoast_migrations) to final table name (L01QYH_yoast_migrations)
+0000.325 () Search and replacing table: L01QYH_yoast_migrations: rows: 23
+0000.326 () Processing table (MyISAM): wp4v_yoast_primary_term - will restore as: g0_yoast_primary_term
+0000.329 () Atomic restore: dropping original table (L01QYH_yoast_primary_term)
+0000.329 () Atomic restore: renaming new table (g0_yoast_primary_term) to final table name (L01QYH_yoast_primary_term)
+0000.330 () Search and replacing table: L01QYH_yoast_primary_term: rows: 0
+0000.330 () Processing table (MyISAM): wp4v_yoast_seo_links - will restore as: g0_yoast_seo_links
+0000.332 () Unlocking database and leaving maintenance mode
+0000.332 () Disabling Maintenance mode&#8230;
+0000.333 () Atomic restore: dropping original table (L01QYH_yoast_seo_links)
+0000.333 () Atomic restore: renaming new table (g0_yoast_seo_links) to final table name (L01QYH_yoast_seo_links)
+0000.334 () Search and replacing table: L01QYH_yoast_seo_links: rows: 0
+0000.334 () Finished: lines processed: 71 in 0.29 seconds
+0000.334 () Cleaning up rubbish...
+0000.334 () Begin search and replace (updraftplus_restored_db)
+0000.334 () [Database-replace-site-url] Database: search and replace site URL
+0000.334 () Restored pre-migration site ID for this installation
+0000.336 () Database search and replace: replace https://dev.goauroratech.com in backup dump with https://camp.dsd-media.online
+0000.336 () Database search and replace: replace http://dev.goauroratech.com in backup dump with https://camp.dsd-media.online
+0000.336 () Database search and replace: replace /home/goauro5/dev2020.goauroratech.com in backup dump with /home/development/camp.dsd-media.online
+0000.336 () Search and replacing table: L01QYH_commentmeta: already done
+0000.337 () Search and replacing table: L01QYH_comments: already done
+0000.337 () Search and replacing table: L01QYH_db7_forms: already done
+0000.337 () Search and replacing table: L01QYH_links: already done
+0000.337 () Search and replacing table: L01QYH_options: already done
+0000.337 () Search and replacing table: L01QYH_postmeta: already done
+0000.337 () Search and replacing table: L01QYH_posts: already done
+0000.337 () Search and replacing table: L01QYH_redirection_404: already done
+0000.337 () Search and replacing table: L01QYH_redirection_groups: already done
+0000.337 () Search and replacing table: L01QYH_redirection_items: already done
+0000.337 () Search and replacing table: L01QYH_redirection_logs: already done
+0000.337 () Search and replacing table: L01QYH_responsive_menu: already done
+0000.337 () Search and replacing table: L01QYH_term_relationships: already done
+0000.337 () Search and replacing table: L01QYH_term_taxonomy: already done
+0000.337 () Search and replacing table: L01QYH_termmeta: already done
+0000.337 () Search and replacing table: L01QYH_terms: already done
+0000.337 () Search and replacing table: L01QYH_usermeta: already done
+0000.337 () Search and replacing table: L01QYH_users: already done
+0000.337 () Search and replacing table: L01QYH_yoast_indexable: already done
+0000.337 () Search and replacing table: L01QYH_yoast_indexable_hierarchy: already done
+0000.337 () Search and replacing table: L01QYH_yoast_migrations: already done
+0000.337 () Search and replacing table: L01QYH_yoast_primary_term: already done
+0000.337 () Search and replacing table: L01QYH_yoast_seo_links: already done
+0000.342 () Entity: plugins
+0000.342 () restore_backup(backup_file=backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:58:"/home/development/camp.dsd-media.online/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.342 () Unpacking backup... (backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-plugins.zip, 17 MB)
+0000.342 () Unzipping backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-plugins.zip to /home/development/camp.dsd-media.online/wp-content/upgrade/f68423d0/ using UpdraftPlus_ZipArchive, starting index 0
+0000.443 () Unzip progress: 1002 out of 5973 files (1.5 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Signature/AnonymousSignature.php)
+0000.643 () Unzip progress: 2003 out of 5973 files (13.9 MB, plugins/updraftplus/vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-it_IT.mo)
+0000.805 () Unzip progress: 3004 out of 5973 files (18.5 MB, plugins/responsive-menu/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/with/iterable.test)
+0000.959 () Unzip progress: 4005 out of 5973 files (21 MB, plugins/wordpress-seo/src/actions/integrations-action.php)
+0001.183 () Unzip progress: 5006 out of 5973 files (35.4 MB, plugins/advanced-custom-fields/assets/images/field-type-icons/icon-field-text.svg)
+0001.435 () Unzip progress: 5973 out of 5973 files (54.7 MB, plugins/redirection/locale/json/redirection-hr.json)
+0001.438 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.438 () Moving old data: can potentially use wp_filesystem method / -old
+0001.438 () Moving old data out of the way...
+0001.543 () Top-level entities being moved: updraftplus, akismet, index.php, hello.php
+0001.544 () Moving unpacked backup into place...
+0001.849 () Top-level entities being moved: contact-form-7, contact-form-cfdb7, wp-fastest-cache, open-external-links-in-a-new-window, block-specific-plugin-updates, classic-editor, updraftplus, responsive-menu, classic-widgets, wps-hide-login, advanced-access-manager, wordpress-seo, block-bad-queries, wp-pagenavi, advanced-custom-fields, redirection, index.php, antispam-bee, resize-image-after-upload, disable-wp-theme-updates-advance
+0001.851 () Cleaning up rubbish...
+0001.852 () Entity: themes
+0001.852 () restore_backup(backup_file=backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-themes.zip, type=themes, info=a:3:{s:4:"path";s:57:"/home/development/camp.dsd-media.online/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0001.852 () Unpacking backup... (backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-themes.zip, 0.1 MB)
+0001.852 () Unzipping backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-themes.zip to /home/development/camp.dsd-media.online/wp-content/upgrade/4dcc3f19/ using UpdraftPlus_ZipArchive, starting index 0
+0001.860 () Unzip progress: 49 out of 49 files (141 KB, themes/iconic-one/style.css)
+0001.861 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.861 () Moving old data: can potentially use wp_filesystem method / -old
+0001.861 () Moving old data out of the way...
+0001.883 () Top-level entities being moved: twentytwentyone, twentytwentythree, index.php, twentytwentytwo
+0001.884 () Moving unpacked backup into place...
+0001.886 () Top-level entities being moved: iconic-one, index.php
+0001.886 () Cleaning up rubbish...
+0001.888 () Entity: uploads
+0001.888 () restore_backup(backup_file=backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:58:"/home/development/camp.dsd-media.online/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0001.888 () Unpacking backup... (backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-uploads.zip, 0 MB)
+0001.888 () Unzipping backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-uploads.zip to /home/development/camp.dsd-media.online/wp-content/upgrade/3f5fd441/ using UpdraftPlus_ZipArchive, starting index 0
+0001.890 () Unzip progress: 15 out of 15 files (17.5 KB, uploads/favicon.png)
+0001.890 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.891 () Moving old data: can potentially use wp_filesystem method / -old
+0001.891 () Moving old data out of the way...
+0001.891 () Moving unpacked backup into place...
+0001.892 () Cleaning up rubbish...
+0001.893 () Entity: others
+0001.893 () restore_backup(backup_file=backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-others.zip, type=others, info=a:2:{s:4:"path";s:50:"/home/development/camp.dsd-media.online/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0001.893 () Unpacking backup... (backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-others.zip, 2.7 MB)
+0001.893 () Unzipping backup_2023-01-16-1105_Website_Name_Here_3685e9e757d8-others.zip to /home/development/camp.dsd-media.online/wp-content/upgrade/822e3851/ using UpdraftPlus_ZipArchive, starting index 0
+0001.903 () Unzip progress: 18 out of 18 files (2.7 MB, index.php)
+0001.904 () Cleaning up rubbish...
+0001.912 () Restore successful!
+0001.912 () Restore successful

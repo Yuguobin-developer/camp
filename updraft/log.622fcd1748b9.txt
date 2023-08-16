@@ -1,0 +1,162 @@
+0000.015 (0) Opened log file at time: Sat, 18 Feb 2023 12:44:39 +0000 on http://localhost:81/camp
+0000.026 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.1 WP: 6.1.1 PHP: 7.4.27 (apache2handler, Windows NT DESKTOP-8JNMTIS 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.22-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.27 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 46.7M | 6M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.026 (0) Free space on disk containing Updraft's temporary directory: 342119.4 MB
+0000.043 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.043 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.060 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1674532219, seconds_ago=2192060)
+0000.061 (0) Set semaphore last lock (fd) time to 2023-02-18 12:44:39
+0000.062 (0) Semaphore lock (fd) complete
+0000.063 (0) Backup run: resumption=0, nonce=622fcd1748b9, file_nonce=622fcd1748b9 begun at=1676724279 (0s ago), job type=backup
+0000.064 (0) Scheduling a resumption (1) after 300 seconds (1676724579) in case this run gets aborted
+0000.149 (0) Checking if we have a zip executable available
+0000.150 (0) Creation of backups of directories: beginning
+0000.153 (0) No backup of plugins: excluded by user's options
+0000.153 (0) No backup of themes: excluded by user's options
+0000.154 (0) No backup of uploads: excluded by user's options
+0000.155 (0) No backup of others: excluded by user's options
+0000.157 (0) Saving backup status to database (elements: 0)
+0000.159 (0) Beginning creation of database dump (WordPress DB)
+0000.160 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.426 (0) Table wp_options: Total expected rows (via COUNT): 334
+0000.427 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.446 (0) Table wp_options: Rows added in this batch (next record: 26050): 333 (uncompressed bytes in this segment=114150) in 0.06 seconds
+0000.451 (0) Table wp_options: finishing file(s) (2, 25.6 KB)
+0000.491 (0) Table wp_users: Total expected rows (via COUNT): 3
+0000.492 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.493 (0) Table wp_users: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1629) in 0.01 seconds
+0000.497 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0000.545 (0) Table wp_usermeta: Total expected rows (via COUNT): 86
+0000.546 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.549 (0) Table wp_usermeta: Rows added in this batch (next record: 107): 86 (uncompressed bytes in this segment=11647) in 0.03 seconds
+0000.563 (0) Table wp_usermeta: finishing file(s) (2, 3.3 KB)
+0000.595 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0000.597 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.01 seconds
+0000.603 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.633 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0000.634 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1678) in 0.02 seconds
+0000.637 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0000.675 (0) Table wp_links: Total expected rows (via COUNT): 0
+0000.676 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.02 seconds
+0000.682 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.690 (0) Table wp_postmeta: Total expected rows (via COUNT): 163
+0000.690 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.696 (0) Table wp_postmeta: Rows added in this batch (next record: 251): 163 (uncompressed bytes in this segment=50019) in 0.01 seconds
+0000.700 (0) Table wp_postmeta: finishing file(s) (2, 8 KB)
+0000.708 (0) Table wp_posts: Total expected rows (via COUNT): 123
+0000.708 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.723 (0) Table wp_posts: Rows added in this batch (next record: 220): 123 (uncompressed bytes in this segment=450591) in 0.02 seconds
+0000.728 (0) Table wp_posts: finishing file(s) (2, 12.6 KB)
+0000.747 (0) Table wp_term_relationships: Total expected rows (approximate): 7
+0000.748 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 7 (uncompressed bytes in this segment=773) in 0.01 seconds
+0000.752 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0000.771 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0000.772 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.773 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=939) in 0.01 seconds
+0000.778 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0000.810 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0000.811 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0000.815 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0000.875 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0000.876 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.878 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=745) in 0.01 seconds
+0000.882 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0000.928 (0) Table wp_db7_forms: Total expected rows (via COUNT): 0
+0000.930 (0) Table wp_db7_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=567) in 0.01 seconds
+0000.934 (0) Table wp_db7_forms: finishing file(s) (2, 0.4 KB)
+0000.958 (0) Table wp_redirection_404: Total expected rows (via COUNT): 441
+0000.959 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.973 (0) Table wp_redirection_404: Rows added in this batch (next record: 5998): 441 (uncompressed bytes in this segment=96953) in 0.02 seconds
+0000.977 (0) Table wp_redirection_404: finishing file(s) (2, 8.1 KB)
+0001.000 (0) Table wp_redirection_groups: Total expected rows (via COUNT): 1
+0001.000 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.002 (0) Table wp_redirection_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=910) in 0.01 seconds
+0001.006 (0) Table wp_redirection_groups: finishing file(s) (2, 0.5 KB)
+0001.013 (0) Table wp_redirection_items: Total expected rows (via COUNT): 4
+0001.014 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.015 (0) Table wp_redirection_items: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2089) in 0.01 seconds
+0001.019 (0) Table wp_redirection_items: finishing file(s) (2, 0.7 KB)
+0001.031 (0) Table wp_redirection_logs: Total expected rows (via COUNT): 0
+0001.032 (0) Table wp_redirection_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0001.036 (0) Table wp_redirection_logs: finishing file(s) (2, 0.5 KB)
+0001.042 (0) Table wp_responsive_menu: Total expected rows (approximate): 286
+0001.045 (0) Table wp_responsive_menu: Rows added in this batch (next record: 1000): 286 (uncompressed bytes in this segment=11957) in 0.01 seconds
+0001.049 (0) Table wp_responsive_menu: finishing file(s) (2, 2.3 KB)
+0001.070 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 41
+0001.070 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.078 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 53): 41 (uncompressed bytes in this segment=24728) in 0.01 seconds
+0001.083 (0) Table wp_yoast_indexable: finishing file(s) (2, 4.1 KB)
+0001.118 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 37
+0001.120 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 37 (uncompressed bytes in this segment=1383) in 0.01 seconds
+0001.124 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0001.143 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0001.143 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.145 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1234) in 0.01 seconds
+0001.149 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0001.190 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0001.192 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.01 seconds
+0001.195 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0001.253 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 13
+0001.254 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.257 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 19): 13 (uncompressed bytes in this segment=2238) in 0.01 seconds
+0001.263 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.6 KB)
+0001.267 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_options.table.tmpr26051.gz (1/23/fopen): adding to final database dump
+0001.269 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_options.table.gz (2/23/fopen): adding to final database dump
+0001.270 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_users.table.tmpr5.gz (3/23/fopen): adding to final database dump
+0001.271 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_users.table.gz (4/23/fopen): adding to final database dump
+0001.272 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_usermeta.table.tmpr108.gz (5/23/fopen): adding to final database dump
+0001.274 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_usermeta.table.gz (6/23/fopen): adding to final database dump
+0001.275 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_commentmeta.table.tmpr0.gz (7/23/fopen): adding to final database dump
+0001.276 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_commentmeta.table.gz (8/23/fopen): adding to final database dump
+0001.277 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_comments.table.tmpr0.gz (9/23/fopen): adding to final database dump
+0001.278 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_comments.table.gz (10/23/fopen): adding to final database dump
+0001.279 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_links.table.tmpr0.gz (11/23/fopen): adding to final database dump
+0001.280 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_links.table.gz (12/23/fopen): adding to final database dump
+0001.281 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_postmeta.table.tmpr252.gz (13/23/fopen): adding to final database dump
+0001.283 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_postmeta.table.gz (14/23/fopen): adding to final database dump
+0001.283 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_posts.table.tmpr221.gz (15/23/fopen): adding to final database dump
+0001.284 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_posts.table.gz (16/23/fopen): adding to final database dump
+0001.285 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_term_relationships.table.tmpr100001.gz (17/23/fopen): adding to final database dump
+0001.286 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_term_relationships.table.gz (18/23/fopen): adding to final database dump
+0001.286 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_term_taxonomy.table.tmpr3.gz (19/23/fopen): adding to final database dump
+0001.287 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_term_taxonomy.table.gz (20/23/fopen): adding to final database dump
+0001.288 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_termmeta.table.tmpr0.gz (21/23/fopen): adding to final database dump
+0001.288 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_termmeta.table.gz (22/23/fopen): adding to final database dump
+0001.289 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_terms.table.tmpr3.gz (23/23/fopen): adding to final database dump
+0001.290 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_terms.table.gz (24/23/fopen): adding to final database dump
+0001.290 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_db7_forms.table.tmpr0.gz (25/23/fopen): adding to final database dump
+0001.291 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_db7_forms.table.gz (26/23/fopen): adding to final database dump
+0001.292 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_404.table.tmpr5999.gz (27/23/fopen): adding to final database dump
+0001.293 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_404.table.gz (28/23/fopen): adding to final database dump
+0001.293 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_groups.table.tmpr2.gz (29/23/fopen): adding to final database dump
+0001.294 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_groups.table.gz (30/23/fopen): adding to final database dump
+0001.295 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_items.table.tmpr5.gz (31/23/fopen): adding to final database dump
+0001.296 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_items.table.gz (32/23/fopen): adding to final database dump
+0001.296 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_logs.table.tmpr0.gz (33/23/fopen): adding to final database dump
+0001.297 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_redirection_logs.table.gz (34/23/fopen): adding to final database dump
+0001.299 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_responsive_menu.table.tmpr1001.gz (35/23/fopen): adding to final database dump
+0001.300 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_responsive_menu.table.gz (36/23/fopen): adding to final database dump
+0001.300 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_indexable.table.tmpr54.gz (37/23/fopen): adding to final database dump
+0001.301 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_indexable.table.gz (38/23/fopen): adding to final database dump
+0001.302 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (39/23/fopen): adding to final database dump
+0001.303 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_indexable_hierarchy.table.gz (40/23/fopen): adding to final database dump
+0001.303 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_migrations.table.tmpr24.gz (41/23/fopen): adding to final database dump
+0001.304 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_migrations.table.gz (42/23/fopen): adding to final database dump
+0001.305 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_primary_term.table.tmpr0.gz (43/23/fopen): adding to final database dump
+0001.306 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_primary_term.table.gz (44/23/fopen): adding to final database dump
+0001.306 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_seo_links.table.tmpr20.gz (45/23/fopen): adding to final database dump
+0001.307 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db-table-wp_yoast_seo_links.table.gz (46/23/fopen): adding to final database dump
+0001.396 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db.gz: finished writing out complete database file (72 KB)
+0001.409 (0) Total database tables backed up: 23 (backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db.gz, size: 73809, sha1: 5874fc698d2b9c3023ff48f9ae948fc0d8a61ae1, sha256: 6141afae863ffc5ee17e18a130f73043333ef4dc489a2ac43fb871d34850e3b1)
+0001.413 (0) backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.414 (0) Saving backup history. Total backup size: 72.1 KB
+0001.416 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.419 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.419 (0) No remote despatch: user chose no remote backup service
+0001.420 (0) Recording as successfully uploaded: backup_2023-02-18-0744_Camp_Resilience_622fcd1748b9-db.gz
+0001.422 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0001.423 (0) Resume backup (622fcd1748b9, 0): finish run
+0001.425 (0) Decremented the semaphore (fd) by 1
+0001.426 (0) Semaphore (fd) unlocked
+0001.426 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.429 (0) No email will/can be sent - the user has not configured an email address.
+0001.430 (0) The backup apparently succeeded and is now complete
